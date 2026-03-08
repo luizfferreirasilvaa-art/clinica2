@@ -28,7 +28,7 @@ export default function RegisterClinica() {
 
         try {
             // Create user auth
-            const { data: authData, error: authError } = await supabase.auth.signUp({
+            const { error: authError } = await supabase.auth.signUp({
                 email,
                 password,
             });

@@ -1,10 +1,10 @@
-import { useParams, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Card, CardHeader, CardTitle, CardContent } from '../../components/ui/card';
 import { Button } from '../../components/ui/button';
 import { Phone, Mail, MapPin, CreditCard, Clock, FileText, CheckCircle2 } from 'lucide-react';
 
 export default function SubscriberProfile() {
-    const { id } = useParams();
+    // const { id } = useParams();
 
     // Simulated fetch based on ID
     const subscriber = {
